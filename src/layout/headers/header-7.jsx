@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import NavMenu from "./nav-menu";
 // logo
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo from "../../public/assets/img/logo/logo.webp";
 
 const HeaderSeven = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,7 +18,7 @@ const HeaderSeven = () => {
               <div className="col-6">
                 <div className="header-signin-logo">
                   <Link href="/">
-                    <Image src={logo_white} alt="" />
+                    <Image src={logo} alt="" />
                   </Link>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const HeaderSeven = () => {
               <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                 <div className="header-bottom__logo">
                   <Link href="/">
-                    <Image src={logo_white} alt="" />
+                    <Image src={logo} alt="" />
                   </Link>
                 </div>
               </div>

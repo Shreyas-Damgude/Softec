@@ -5,8 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 
-import white_logo from "../../../public/assets/img/logo/logo-white.png";
-import black_logo from "../../../public/assets/img/logo/logo-black.png";
+import logo from "/../../public/assets/img/logo/logo.webp";
 
 const hero_content = {
   login_btn: "Login",
@@ -31,11 +30,11 @@ const HeaderTwo = () => {
             <div className="row g-0 align-items-center">
               <div className="col-xl-2 col-lg-2 col-md-6 col-6">
                 <div className="tp-header-2__logo">
-                  <Link className="white-logo" href="/">
-                    <Image src={white_logo} alt="theme-pure" />
+                  <Link className="white-logo" href="#">
+                    <Image src={logo} alt="theme-pure" />
                   </Link>
-                  <Link className="black-logo" href="/">
-                    <Image src={black_logo} alt="theme-pure" />
+                  <Link className="black-logo" href="#">
+                    <Image src={logo} alt="theme-pure" />
                   </Link>
                 </div>
               </div>

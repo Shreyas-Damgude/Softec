@@ -6,8 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 
-import logo_black from "../../../public/assets/img/logo/logo-black.png";
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo from "../../public/assets/img/logo/logo.webp";
 
 const HeaderSix = ({ style_2 = false }) => {
   const { sticky } = useSticky();
@@ -28,15 +27,15 @@ const HeaderSix = ({ style_2 = false }) => {
                 <div className="header-bottom__logo">
                   {style_2 ? (
                     <Link href="/">
-                      <Image src={logo_black} alt="theme-pure" />
+                      <Image src={logo} alt="theme-pure" />
                     </Link>
                   ) : (
                     <>
                       <Link className="white-logo" href="/">
-                        <Image src={logo_white} alt="theme-pure" />
+                        <Image src={logo} alt="theme-pure" />
                       </Link>
                       <Link className="black-logo" href="/">
-                        <Image src={logo_black} alt="" />
+                        <Image src={logo} alt="" />
                       </Link>
                     </>
                   )}

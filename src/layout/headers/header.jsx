@@ -9,7 +9,7 @@ import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
 import NavMenu from "./nav-menu";
 import useSticky from "@/src/hooks/use-sticky";
 
-import logo from "../../../public/assets/img/logo/logo-black.png";
+import logo from "../../../public/assets/img/logo/logo.webp";
 
 const Header = () => {
   const { sticky } = useSticky();

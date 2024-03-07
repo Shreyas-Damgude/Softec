@@ -5,9 +5,7 @@ import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 import Image from "next/image";
 
-import logo from "../../../public/assets/img/logo/logo-black.png";
-import white_logo from "../../../public/assets/img/logo/logo-white.png";
-import black_logo from "../../../public/assets/img/logo/logo-black.png";
+import logo from "../../public/assets/img/logo/logo.webp";
 
 const HeaderFour = ({ style_error }) => {
   const { sticky } = useSticky();
@@ -37,10 +35,10 @@ const HeaderFour = ({ style_error }) => {
                   ) : (
                     <>
                       <Link className="white-logo" href="/">
-                        <Image src={white_logo} alt="theme-pure" />
+                        <Image src={logo} alt="theme-pure" />
                       </Link>
                       <Link className="black-logo" href="/">
-                        <Image src={black_logo} alt="theme-pure" />
+                        <Image src={logo} alt="theme-pure" />
                       </Link>
                     </>
                   )}

@@ -100,7 +100,7 @@ const CardArea = ({ style_service }) => {
                   className={`${
                     style_service ? "tp-btn-inner" : "tp-btn-blue-lg"
                   } tp-btn-hover alt-color-black`}
-                  href="/service-details"
+                  href="#"
                 >
                   <span>{btn_text}</span>
                   <b></b>
