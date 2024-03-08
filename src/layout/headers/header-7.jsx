@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import NavMenu from "./nav-menu";
 // logo
-import logo from "../../public/assets/img/logo/logo.webp";
+import logo from "../../../public/assets/img/logo/logo.webp";
 
 const HeaderSeven = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);

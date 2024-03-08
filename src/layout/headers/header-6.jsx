@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 
-import logo from "../../public/assets/img/logo/logo.webp";
+import logo from "../../../public/assets/img/logo/logo.webp";
 
 const HeaderSix = ({ style_2 = false }) => {
   const { sticky } = useSticky();

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 import Image from "next/image";
 
-import logo from "../../../public/assets/img/logo/logo.webp";
+import logo from "../../../../public/assets/img/logo/logo.webp";
 
 const HeaderFour = ({ style_error }) => {
   const { sticky } = useSticky();

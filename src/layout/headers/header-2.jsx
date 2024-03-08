@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 
-import logo from "/../../public/assets/img/logo/logo.webp";
+import logo from "../../../public/assets/img/logo/logo.webp";
 
 const hero_content = {
   login_btn: "Login",
